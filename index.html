@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="index.css">
+        <title>truth</title>
+        <link rel="shortcut icon" type="image/jpg" href="fevicon.png"/>
+    </head>
+    <body>
+        <div class="formdiv">
+            <h1 class="font">Truth Table Generator</h1>
+        </div>
+        <div class="formdiv">
+            
+                <input type="text" placeholder="type your fomula" class = "fillup fontbig" id="eqnform">
+                <input type="submit" value = "Generate" class="button font-button fontbig" onclick="gen()"><br>
+               
+
+        </div>
+        <div class="formdiv">
+            <input type="submit" value = "help" id= "helpb" class="button font-button fontbig" onclick="helpclicked()">
+        </div>
+        <div id="helpbox" class ="helpdiv texth hideclass">
+            <div class="innerhelpdiv"><h2 >And</h2> <br> <h3>^ / & / and</h3></div>
+            
+            <div class="innerhelpdiv"><h2>or</h2> <br> <h3>v / | / or</h3> </div>
+            <div class="innerhelpdiv"><h2>Not</h2> <br> <h3> ~ / ! / not</h3></div>
+            <div class="innerhelpdiv"><h2>Xor</h2> <br> <h3>xor / ⊕</h3> </div>
+            
+            <div class="texth">
+               
+               <br><br> <h3 >How to type</h3><br>
+                <h3>Use the above characters for the logical operators. Identifiers can be either upper or lower case letters: A, B, x, y... You can also type true and false.</h3>
+            <br>
+            <h3>Example: !(A & B) = !A v !B</h3>
+            </div>
+        </div>
+        <div class="alert_undefiend hideclass " id="error">
+            <h2>Enter valid equation !</h2>
+        </div>
+        <table id =  table1>
+            
+
+        </table>
+        <script src="script.js"></script>
+    </body>
+
+    <footer>
+        <div class="icondiv">
+            <a class="fa fa-instagram fa-3x colorw" href="https://www.instagram.com/lovepreet3092001"></a>
+            <a class="fa fa-linkedin fa-3x colorw" href="https://in.linkedin.com/in/lovepreet-singh-6a4ab8211"></a>
+            <a class="fa fa-twitter fa-3x colorw" href="https://twitter.com/lovepre92791257"></a>
+            <p class="design">desiegened by <span class="designfont">lovepreet singh</span></p>
+        </div>
+    </footer>
+</html>
