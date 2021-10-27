@@ -1,4 +1,7 @@
-
+html
+{
+    font-size: .7vw;
+}
 @keyframes divanimation {
     0% {
         display: none;
@@ -24,16 +27,16 @@ body
 .fillup
 {
   width: 40%;
-  height:3.5rem;
-  border-radius: .75rem;
+  height:5.6rem;
+  border-radius: 1.2rem;
   
-  border: 2px solid white;
+  border: .2rem solid white;
   background-color: transparent;
   text-align: left;
   font-family: 'Dancing Script', cursive;
     color: white;
-    font-size: 1.5rem;
-    padding: 0 20px;
+    font-size: 2.4rem;
+    padding: 0 2rem;
 }
 
 .font
@@ -41,17 +44,17 @@ body
     font-family: 'Courgette', cursive;
     color: white;
     text-align: center;
-    font-size: 3rem;    
+    font-size: 4.8rem;    
 }
 .fontbig
 {
     font-family: 'Courgette', cursive;
-    font-size: 2rem; 
+    font-size: 3.2rem; 
 }
 .font-button
 {
     font-family: 'Courgette', cursive;
-    font-size: 2rem; 
+    font-size: 3.2rem; 
     color: white;
     text-align: center;
     
@@ -59,13 +62,13 @@ body
 
 .button
 {
-    width: 10%;
-    height: 3.5rem;
-    border-radius: .75rem;
+    width: 17rem;
+    height: 5.6rem;
+    border-radius: 1.2rem;
 
-  border: 2px solid white;
+  border: .2rem solid white;
   background-color: transparent;
-  margin: 20px;
+  margin: .5rem;
   -webkit-transition: background .5s;
     transition: background .5s;
 }
@@ -86,7 +89,7 @@ body
     background-color: white;
     color: #4e3acc;
     initial-value: 0;
-    border-radius: 0.75rem;
+    border-radius: 1.2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -101,9 +104,9 @@ body
 .helpdiv
 {
     width: 40%;
-    margin: 40px auto;
+    margin: 4rem auto;
     background-color: white;
-   border-radius: 15px;
+   border-radius: 1.5rem;
    animation: divanimation 2s;
 }
 
@@ -112,8 +115,8 @@ body
     width: 17%;
    text-align: center;
      float: left;
-    padding: 30px 15px;
-    margin: 0 5px;
+    padding: 3rem 1.5rem;
+    margin: 0 .5rem;
     transition: transform .3s linear,opacity 2s;  
 }
 .innerhelpdiv:hover
@@ -122,7 +125,7 @@ body
    
     background-color: rgb(43, 132, 161);
     color: white;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 h2,h3
 {
@@ -131,7 +134,7 @@ h2,h3
 }
 .texth
 {
-    padding:20px;
+    padding:2rem;
 
 }
 .hideclass
@@ -145,8 +148,8 @@ h2,h3
 
 table 
 {
-    margin: 20px auto;
-   border-radius: 20px;
+    margin: 2rem auto;
+   border-radius: 2rem;
    background-color: white;
    border:solid white;
    animation: divanimation 2s;
@@ -155,32 +158,32 @@ th,td
 {
   background-color: white;
   /* width : 4rem; */
-  font-size: 2rem;
+  font-size: 3.2rem;
   text-align: center;
-  padding: 2px 25px;
+  padding: .2rem 2.5rem;
   border: transparent;
   animation: divanimation 2s;
 }
 tr:hover td
 {
     background-color: #d3d3d3;
-    border-radius: 5px;
+    border-radius: .5rem;
 }
 
 .alert_undefiend
 {
     background-color: #FFA0A0;
     width: 40%;
-     height:2.5rem;
-  border-radius: .75rem;
+     height:4rem;
+  border-radius: 1.2rem;
   
-  border: 2px solid white;
+  border: .2rem solid white;
   text-align: center;
   
     color:#262A53;
-    font-size: 1.5rem;
-    margin: 10px auto;
-    padding: 0 20px; 
+    font-size: 2.4rem;
+    margin: 1rem auto;
+    padding: 0 2rem; 
     animation-name: show;
     animation-duration: .8s;
 }
@@ -196,7 +199,7 @@ tr:hover td
 .colorw
 {
     color: white;
-    margin: 2px 1rem;
+    margin: .3rem 1.6rem;
     
 }
 
@@ -208,7 +211,7 @@ tr:hover td
 .design
 {
     color: white;
-    font-size: 1.5rem;
+    font-size: 2.4rem;
 }
 .designfont
 {
@@ -216,10 +219,10 @@ tr:hover td
 }
 #footer {
     position: fixed;
-    padding: 10px 10px 0px 10px;
+    padding: 1rem 1rem 0 1rem;
     bottom: 0;
     width: 100%;
     /* Height of the footer*/ 
-    height: 40px;
-    background: ;
+    height: 4rem;
+    /* background: ; */
 }
